@@ -200,7 +200,7 @@ class BiRightAngledTriView(ctx : Context) : View(ctx) {
     data class Renderer(var view : BiRightAngledTriView) {
 
         private val animator : Animator = Animator(view)
-        private val brat : BRATNode = BRATNode(0)
+        private val brat : BiRightAngleLine = BiRightAngleLine(0)
         private val paint : Paint = Paint(Paint.ANTI_ALIAS_FLAG)
 
         fun render(canvas : Canvas) {
